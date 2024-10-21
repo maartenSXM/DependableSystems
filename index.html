@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Dependable Systems</title>
+    <style>
+        body {
+            background: #2a2a2a; /* Dark, industrial background */
+            font-family: 'Courier New', Courier, monospace; /* Steampunk, vintage feel */
+            color: #00ff00; /* Matrix green font */
+        }
+        header {
+            background: #4e342e; /* Coppery brown for steampunk style */
+            padding: 20px;
+            border-bottom: 3px solid #8d6e63; /* Industrial look */
+        }
+        .logo img {
+            width: 150px;
+            filter: sepia(1) contrast(1.5) hue-rotate(-20deg); /* Steampunk coloring */
+        }
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: flex-end;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #00ff00; /* Matrix green */
+            text-decoration: none;
+            font-weight: bold;
+        }
+        #hero {
+            background: url('steampunk-gears.jpg') no-repeat center center; /* Steampunk-themed image */
+            background-size: cover;
+            color: #00ff00; /* Matrix green */
+            text-align: center;
+            padding: 150px 20px;
+        }
+        .btn {
+            background: #4e342e; /* Steampunk copper */
+            color: #00ff00;
+            border: 2px solid #8d6e63;
+            padding: 10px 20px;
+            text-transform: uppercase;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .content-section {
+            padding: 50px 20px;
+            border-top: 3px solid #8d6e63;
+            background: #3e2723; /* Darker shade for steampunk */
+        }
+        .features li {
+            margin: 10px 0;
+            font-weight: bold;
+        }
+        .service-box {
+            background: #5d4037; /* Vintage look */
+            padding: 20px;
+            border: 2px solid #8d6e63;
+            margin: 20px 0;
+        }
+        #contact form {
+            display: flex;
+            flex-direction: column;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        #contact input, #contact textarea {
+            background: #4e342e;
+            color: #00ff00;
+            border: 2px solid #8d6e63;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        #contact button {
+            background: #4e342e;
+            color: #00ff00;
+            border: 2px solid #8d6e63;
+            padding: 10px;
+        }
+        footer {
+            background: #4e342e;
+            padding: 20px;
+            text-align: center;
+            color: #00ff00;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="logo.png" alt="Dependable Systems Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#solution">Our Solution</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h1>Dependable Systems</h1>
+            <p>Secure. Innovative. Proven.</p>
+            <a href="#solution" class="btn">Discover More</a>
+        </div>
+    </section>
+
+    <section id="about" class="content-section">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Dependable Systems provides secure open-source software solutions for edge and cloud systems. Our mission is to deliver innovative and reliable systems that protect the integrity of your software supply chain.</p>
+        </div>
+    </section>
+
+    <section id="solution" class="content-section">
+        <div class="container">
+            <h2>Our Solution</h2>
+            <p>We specialize in providing ready-made, secure operating systems tailored for edge computing. Our focus is on securing the software supply chain and delivering performance-driven solutions that are trusted by industry leaders.</p>
+            <ul class="features">
+                <li><strong>Ready-Made Operating Systems:</strong> Lightweight, secure, and with automated updates.</li>
+                <li><strong>Supply Chain Security:</strong> End-to-end security for edge devices, verified and signed by Dependable Systems.</li>
+                <li><strong>Lifecycle Management:</strong> Comprehensive fleet management and OTA updates.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="services" class="content-section">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-box">
+                <h3>Edge Security Solutions</h3>
+                <p>We provide end-to-end supply chain security for edge devices, ensuring full traceability from development to deployment.</p>
+            </div>
+            <div class="service-box">
+                <h3>Embedded Systems Hardening</h3>
+                <p>Our custom solutions ensure that embedded devices are hardened against threats, ideal for industrial, medical, and automotive industries.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="content-section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>If you are interested in our services or have any questions, please reach out to us.</p>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Dependable Systems. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
