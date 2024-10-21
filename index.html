@@ -154,11 +154,10 @@
             <h2>Contact Us</h2>
             <p>If you are interested in our services or have any questions, please reach out to us.</p>
 	    <form action="https://formspree.io/f/mbljloyw" method="POST">
-		<label>Your email: <input type="email" name="email"> </label>
-		<label>
-		    Your message:
-		    <textarea name="message"> </textarea>
-		</label>
+		<input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <input type="hidden" name="_subject" value="Dependable Systems enquiry">
+                <textarea name="message" placeholder="Your Message" required></textarea>
 		<!-- your other form fields go here -->
 		<button type="submit">Send</button>
 	    </form>
